@@ -3,6 +3,7 @@
   "cleanUrls": true,
   "rewrites": [
     { "source": "/joice", "destination": "/joice/index.html" },
-    { "source": "/maya", "destination": "/maya/index.html" }
+    { "source": "/maya", "destination": "/maya/index.html" },
+    { "source": "/maya/entrada/:source", "destination": "/api/maya-origin?source=:source" }
   ]
 }
